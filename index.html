@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+
+    <title>My Project</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h1 class="header">Add My Project</h1>
+                <br>
+                <div class="left">
+                    <form id="form">
+                        <label class="label" for="name">Project Name</label>
+                        <br>
+                        <input type="text" name="name" id="name" cols="30" rows="10"></input>
+                        <br>
+                        <div id="msgName"></div>
+                        <br>
+                        <label class="label" for="description">Description</label>
+                        <br>
+                        <input type="text" name="description" id="description" cols="30" rows="10"></input>
+                        <br>
+                        <div id="msgDes"></div>
+                        <br>
+                        <label class="label" for="image">Image</label>
+                        <br><br>
+                        <input type="file" class="upload-box" id="img" cols="30" rows="10" />
+                        <br>
+                        <div id="msgImage"></div>
+                        <br>
+                        <button type="submit" class="button buttonSubmit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-9 col-s-12">
+            <div id="posts">
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
